@@ -32,7 +32,7 @@ def MakeRequests(url):
 				raw_text = json.loads(raw_json)
 			except ValueError:
 				#json.decoder.JSONDecodeError:
-				print("An error occurred while rading json, maybe the site redirect to another page. Check manually")
+				print("An error occurred while reading json, maybe the site redirect to another page. Check manually")
 			slug = "slug"
 			total = 0
 			for slug in raw_text:
