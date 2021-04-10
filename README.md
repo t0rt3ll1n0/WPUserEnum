@@ -1,12 +1,15 @@
-# WPUserEnum v1.3
-This basic python3 script will check if your wordpress installation is vulnerable to user enum via REST API on /wp-json
+# WPUserEnum v1.4
+This basic python3 script check if your wordpress installation is vulnerable to user enum in /wp-json
 ## Usage:
 ````~$ python3 WP.py http://www.site.com````
 
-- Fake useragents to bypass useragent blacklisting
+### To enable colors in cmd/powershell run:
+````reg add HKEY_CURRENT_USER\Console /v VirtualTerminalLevel /t REG_DWORD /d 0x00000001 /f````
+
+- Fake useragents for bypass something ;)
 
 - Username extraction with ID, username and full name
 
 - Status code detection
 
-~ If you found any bug/improve, open a issue
+~ If you found any bug/improve, message me on telegam @Davidet
